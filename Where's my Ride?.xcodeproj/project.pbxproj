@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39BF124F1CA5B24800EB2D07 /* DriverMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF124E1CA5B24800EB2D07 /* DriverMapViewController.swift */; };
+		3E1395B81CBC04DC00F09E44 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1395B71CBC04DC00F09E44 /* AdminViewController.swift */; };
+		3E1395BA1CBC062600F09E44 /* Admin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1395B91CBC062600F09E44 /* Admin.swift */; };
+		3E1395BC1CBC176500F09E44 /* AdminOperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1395BB1CBC176500F09E44 /* AdminOperationsViewController.swift */; };
+		3E1618971C9C66D900098147 /* Taxi Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E1618961C9C66D900098147 /* Taxi Filled-25.png */; };
+		3E1618991C9C679F00098147 /* User Group Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E1618981C9C679F00098147 /* User Group Filled-25.png */; };
+		3E2988D71CBDD2BE007BCBDC /* KCSUserExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2988D61CBDD2BE007BCBDC /* KCSUserExtension.swift */; };
+		3E3149EA1CBC3BF3008634F3 /* Find User Male Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3149E91CBC3BF3008634F3 /* Find User Male Filled-25.png */; };
+		3E3149EC1CBC47D2008634F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3149EB1CBC47D2008634F3 /* Main.storyboard */; };
+		3E3149EF1CBC53AA008634F3 /* KinveyOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3149EE1CBC53AA008634F3 /* KinveyOperations.swift */; };
+		3E3149F11CBC5480008634F3 /* RegisterDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3149F01CBC5480008634F3 /* RegisterDriverViewController.swift */; };
+		3E3149F31CBC5828008634F3 /* DriverData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3149F21CBC5828008634F3 /* DriverData.swift */; };
+		3E3149F51CBC7F5D008634F3 /* Info-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3149F41CBC7F5D008634F3 /* Info-25.png */; };
+		3E52BF821CC70D2E0004FA6E /* RideRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E52BF811CC70D2E0004FA6E /* RideRequestViewController.swift */; };
+		3E52BF881CC71E070004FA6E /* UserRegsiterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E52BF871CC71E070004FA6E /* UserRegsiterViewController.swift */; };
+		3E52BF8A1CC71E1A0004FA6E /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E52BF891CC71E1A0004FA6E /* UserLoginViewController.swift */; };
+		3E52BF8C1CC726610004FA6E /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E52BF8B1CC726610004FA6E /* UserDetails.swift */; };
+		71154B981C9766F600EFCF5B /* donottouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 71154B971C9766F600EFCF5B /* donottouch.m */; };
+		71154BA31C977A8000EFCF5B /* RouteDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71154BA21C977A8000EFCF5B /* RouteDetailsTableViewController.swift */; };
+		71178A651CC96CE500F45CE8 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71178A641CC96CE500F45CE8 /* Validation.swift */; };
+		71592E111CC05DF900640EE0 /* TimingsInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71592E101CC05DF900640EE0 /* TimingsInfoViewController.swift */; };
+		71592E131CC05E0800640EE0 /* LocationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71592E121CC05E0800640EE0 /* LocationInfoViewController.swift */; };
+		71592E151CC05E2A00640EE0 /* RoutesInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71592E141CC05E2A00640EE0 /* RoutesInfoViewController.swift */; };
+		71592E171CC05E6200640EE0 /* HowItWorksInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71592E161CC05E6200640EE0 /* HowItWorksInfoViewController.swift */; };
+		71648C211CC70C11003C14A9 /* RideTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71648C201CC70C11003C14A9 /* RideTypeTableViewController.swift */; };
+		71648C231CC71260003C14A9 /* NightRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71648C221CC71260003C14A9 /* NightRideViewController.swift */; };
+		71648C271CC7330C003C14A9 /* RideRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71648C261CC7330C003C14A9 /* RideRequests.swift */; };
+		716BF7EF1CC53763002DD02D /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 716BF7EE1CC53763002DD02D /* logo.jpg */; };
+		716BF7F61CC539F6002DD02D /* logo-29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 716BF7F01CC539F6002DD02D /* logo-29.jpg */; };
+		716BF7F71CC539F6002DD02D /* logo-58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 716BF7F11CC539F6002DD02D /* logo-58.jpg */; };
+		716BF7F81CC539F6002DD02D /* logo-40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 716BF7F21CC539F6002DD02D /* logo-40.jpg */; };
+		716BF7F91CC539F6002DD02D /* logo-80.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 716BF7F31CC539F6002DD02D /* logo-80.jpg */; };
+		716BF7FA1CC539F6002DD02D /* logo-76.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 716BF7F41CC539F6002DD02D /* logo-76.jpg */; };
+		716BF7FB1CC539F6002DD02D /* logo-152.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 716BF7F51CC539F6002DD02D /* logo-152.jpg */; };
+		7177D0561CC6D9C10050731B /* launchScreenImage300-300.png in Resources */ = {isa = PBXBuildFile; fileRef = 7177D0551CC6D9C10050731B /* launchScreenImage300-300.png */; };
+		7177D05A1CC6E15F0050731B /* Administrator.png in Resources */ = {isa = PBXBuildFile; fileRef = 7177D0591CC6E15F0050731B /* Administrator.png */; };
+		7195ADDA1CC99A2A008D1E9F /* Delete-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7195ADD91CC99A2A008D1E9F /* Delete-25.png */; };
+		71BA22611C9762AA00B70A34 /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BA22601C9762AA00B70A34 /* KinveyKit.framework */; };
+		71BA226B1C9762FC00B70A34 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BA22621C9762FC00B70A34 /* Accounts.framework */; };
+		71BA226C1C9762FC00B70A34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BA22631C9762FC00B70A34 /* CoreGraphics.framework */; };
+		71BA226D1C9762FC00B70A34 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BA22641C9762FC00B70A34 /* CoreLocation.framework */; };
+		71BA226E1C9762FC00B70A34 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BA22651C9762FC00B70A34 /* libsqlite3.tbd */; };
+		71BA226F1C9762FC00B70A34 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BA22661C9762FC00B70A34 /* MobileCoreServices.framework */; };
+		71BA22701C9762FC00B70A34 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BA22671C9762FC00B70A34 /* Security.framework */; };
+		71BA22711C9762FC00B70A34 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BA22681C9762FC00B70A34 /* Social.framework */; };
+		71BA22721C9762FC00B70A34 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BA22691C9762FC00B70A34 /* SystemConfiguration.framework */; };
+		71BA22731C9762FC00B70A34 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BA226A1C9762FC00B70A34 /* WebKit.framework */; };
+		71BA22751C97644D00B70A34 /* UserMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA22741C97644D00B70A34 /* UserMapViewController.swift */; };
+		71BA22771C97655A00B70A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA22761C97655A00B70A34 /* AppDelegate.swift */; };
+		7E2E39521CC873D700FDF43B /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E39511CC873D700FDF43B /* MapPin.swift */; };
+		7E9BA55C1CC91F0600856597 /* Taxi Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9BA55B1CC91F0600856597 /* Taxi Filled-25.png */; };
+		7E9BA55E1CC92ECC00856597 /* Marker Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9BA55D1CC92ECC00856597 /* Marker Filled-25.png */; };
+		7EA15F071C94726D00F0649D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA15F061C94726D00F0649D /* Assets.xcassets */; };
+		7EA15F0A1C94726D00F0649D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA15F081C94726D00F0649D /* LaunchScreen.storyboard */; };
+		7EA15F171C94907200F0649D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA15F161C94907200F0649D /* MapKit.framework */; };
+		7EFA014D1CADE82500742E50 /* DriverEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA014C1CADE82500742E50 /* DriverEntity.swift */; };
+		8A8969EC1C9744E6006AD45F /* AppLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8969E21C9744E6006AD45F /* AppLaunchViewController.swift */; };
+		8A8969ED1C9744E6006AD45F /* DriverLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8969E31C9744E6006AD45F /* DriverLoginViewController.swift */; };
+		8A8969EE1C9744E6006AD45F /* DriverRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8969E41C9744E6006AD45F /* DriverRoutes.swift */; };
+		8A8969EF1C9744E6006AD45F /* DriverRoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8969E51C9744E6006AD45F /* DriverRoutesViewController.swift */; };
+		9656D44A1CC022D80098C1F5 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9656D4491CC022D80098C1F5 /* MoreInfoViewController.swift */; };
+		96A905CA1CC9641D0083B90B /* contact_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A905C61CC9641D0083B90B /* contact_up.png */; };
+		96A905CB1CC9641D0083B90B /* How it Works_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A905C71CC9641D0083B90B /* How it Works_up.png */; };
+		96A905CC1CC9641D0083B90B /* Routes_Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A905C81CC9641D0083B90B /* Routes_Up.png */; };
+		96A905CD1CC9641D0083B90B /* Timings_Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A905C91CC9641D0083B90B /* Timings_Up.png */; };
+		96C609B01CC9C764000DDF6C /* driver1.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C609AF1CC9C764000DDF6C /* driver1.png */; };
+		BEE908BC1CC9ED660096F6F9 /* timings_info_Final.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE908B81CC9ED660096F6F9 /* timings_info_Final.png */; };
+		BEE908BE1CC9ED660096F6F9 /* How it Works_Info_Final.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE908BA1CC9ED660096F6F9 /* How it Works_Info_Final.png */; };
+		BEE908BF1CC9ED660096F6F9 /* contact_info_Final.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE908BB1CC9ED660096F6F9 /* contact_info_Final.png */; };
+		BEE908C11CC9F7910096F6F9 /* Routes_Info_Final1.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE908C01CC9F7910096F6F9 /* Routes_Info_Final1.png */; };
+		BEE908C31CC9F9300096F6F9 /* how_up1.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE908C21CC9F9300096F6F9 /* how_up1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39BF124E1CA5B24800EB2D07 /* DriverMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverMapViewController.swift; sourceTree = "<group>"; };
+		3E1395B71CBC04DC00F09E44 /* AdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		3E1395B91CBC062600F09E44 /* Admin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Admin.swift; sourceTree = "<group>"; };
+		3E1395BB1CBC176500F09E44 /* AdminOperationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminOperationsViewController.swift; sourceTree = "<group>"; };
+		3E1618961C9C66D900098147 /* Taxi Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Taxi Filled-25.png"; path = "../Taxi Filled-25.png"; sourceTree = "<group>"; };
+		3E1618981C9C679F00098147 /* User Group Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User Group Filled-25.png"; path = "../User Group Filled-25.png"; sourceTree = "<group>"; };
+		3E2988D61CBDD2BE007BCBDC /* KCSUserExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCSUserExtension.swift; sourceTree = "<group>"; };
+		3E3149E91CBC3BF3008634F3 /* Find User Male Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Find User Male Filled-25.png"; sourceTree = "<group>"; };
+		3E3149EB1CBC47D2008634F3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3E3149EE1CBC53AA008634F3 /* KinveyOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KinveyOperations.swift; path = ../KinveyOperations.swift; sourceTree = "<group>"; };
+		3E3149F01CBC5480008634F3 /* RegisterDriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterDriverViewController.swift; path = ../RegisterDriverViewController.swift; sourceTree = "<group>"; };
+		3E3149F21CBC5828008634F3 /* DriverData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverData.swift; sourceTree = "<group>"; };
+		3E3149F41CBC7F5D008634F3 /* Info-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info-25.png"; sourceTree = "<group>"; };
+		3E52BF811CC70D2E0004FA6E /* RideRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRequestViewController.swift; sourceTree = "<group>"; };
+		3E52BF871CC71E070004FA6E /* UserRegsiterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegsiterViewController.swift; sourceTree = "<group>"; };
+		3E52BF891CC71E1A0004FA6E /* UserLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		3E52BF8B1CC726610004FA6E /* UserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		71154B961C9766F500EFCF5B /* Where's my Ride?-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Where's my Ride?-Bridging-Header.h"; sourceTree = "<group>"; };
+		71154B971C9766F600EFCF5B /* donottouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = donottouch.m; sourceTree = "<group>"; };
+		71154BA21C977A8000EFCF5B /* RouteDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteDetailsTableViewController.swift; sourceTree = "<group>"; };
+		71178A641CC96CE500F45CE8 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		71592E101CC05DF900640EE0 /* TimingsInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingsInfoViewController.swift; sourceTree = "<group>"; };
+		71592E121CC05E0800640EE0 /* LocationInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInfoViewController.swift; sourceTree = "<group>"; };
+		71592E141CC05E2A00640EE0 /* RoutesInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesInfoViewController.swift; sourceTree = "<group>"; };
+		71592E161CC05E6200640EE0 /* HowItWorksInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowItWorksInfoViewController.swift; sourceTree = "<group>"; };
+		71648C201CC70C11003C14A9 /* RideTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideTypeTableViewController.swift; sourceTree = "<group>"; };
+		71648C221CC71260003C14A9 /* NightRideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightRideViewController.swift; sourceTree = "<group>"; };
+		71648C261CC7330C003C14A9 /* RideRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRequests.swift; sourceTree = "<group>"; };
+		716BF7EE1CC53763002DD02D /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		716BF7F01CC539F6002DD02D /* logo-29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-29.jpg"; sourceTree = "<group>"; };
+		716BF7F11CC539F6002DD02D /* logo-58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-58.jpg"; sourceTree = "<group>"; };
+		716BF7F21CC539F6002DD02D /* logo-40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-40.jpg"; sourceTree = "<group>"; };
+		716BF7F31CC539F6002DD02D /* logo-80.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-80.jpg"; sourceTree = "<group>"; };
+		716BF7F41CC539F6002DD02D /* logo-76.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-76.jpg"; sourceTree = "<group>"; };
+		716BF7F51CC539F6002DD02D /* logo-152.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-152.jpg"; sourceTree = "<group>"; };
+		7177D0551CC6D9C10050731B /* launchScreenImage300-300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchScreenImage300-300.png"; sourceTree = "<group>"; };
+		7177D0591CC6E15F0050731B /* Administrator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Administrator.png; sourceTree = "<group>"; };
+		7195ADD91CC99A2A008D1E9F /* Delete-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete-25.png"; sourceTree = "<group>"; };
+		71BA22601C9762AA00B70A34 /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
+		71BA22621C9762FC00B70A34 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		71BA22631C9762FC00B70A34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71BA22641C9762FC00B70A34 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		71BA22651C9762FC00B70A34 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		71BA22661C9762FC00B70A34 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		71BA22671C9762FC00B70A34 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		71BA22681C9762FC00B70A34 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		71BA22691C9762FC00B70A34 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		71BA226A1C9762FC00B70A34 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		71BA22741C97644D00B70A34 /* UserMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMapViewController.swift; sourceTree = "<group>"; };
+		71BA22761C97655A00B70A34 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E2E39511CC873D700FDF43B /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		7E9BA55B1CC91F0600856597 /* Taxi Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Taxi Filled-25.png"; sourceTree = "<group>"; };
+		7E9BA55D1CC92ECC00856597 /* Marker Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marker Filled-25.png"; sourceTree = "<group>"; };
+		7EA15EFC1C94726D00F0649D /* Where's my Ride?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Where's my Ride?.app"; path = "/Users/saitejaalle/Downloads/Where-is-the-ride-development/build/Debug-iphoneos/Where's my Ride?.app"; sourceTree = "<absolute>"; };
+		7EA15F061C94726D00F0649D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EA15F091C94726D00F0649D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EA15F0B1C94726D00F0649D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA15F161C94907200F0649D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7EFA014C1CADE82500742E50 /* DriverEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverEntity.swift; sourceTree = "<group>"; };
+		8A8969E21C9744E6006AD45F /* AppLaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLaunchViewController.swift; sourceTree = "<group>"; };
+		8A8969E31C9744E6006AD45F /* DriverLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverLoginViewController.swift; sourceTree = "<group>"; };
+		8A8969E41C9744E6006AD45F /* DriverRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverRoutes.swift; sourceTree = "<group>"; };
+		8A8969E51C9744E6006AD45F /* DriverRoutesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverRoutesViewController.swift; sourceTree = "<group>"; };
+		8A8969E61C9744E6006AD45F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9656D4491CC022D80098C1F5 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
+		96A905C61CC9641D0083B90B /* contact_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact_up.png; sourceTree = "<group>"; };
+		96A905C71CC9641D0083B90B /* How it Works_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "How it Works_up.png"; sourceTree = "<group>"; };
+		96A905C81CC9641D0083B90B /* Routes_Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Routes_Up.png; sourceTree = "<group>"; };
+		96A905C91CC9641D0083B90B /* Timings_Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timings_Up.png; sourceTree = "<group>"; };
+		96C609AF1CC9C764000DDF6C /* driver1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = driver1.png; sourceTree = "<group>"; };
+		BEE908B81CC9ED660096F6F9 /* timings_info_Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timings_info_Final.png; sourceTree = "<group>"; };
+		BEE908BA1CC9ED660096F6F9 /* How it Works_Info_Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "How it Works_Info_Final.png"; sourceTree = "<group>"; };
+		BEE908BB1CC9ED660096F6F9 /* contact_info_Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact_info_Final.png; sourceTree = "<group>"; };
+		BEE908C01CC9F7910096F6F9 /* Routes_Info_Final1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Routes_Info_Final1.png; sourceTree = "<group>"; };
+		BEE908C21CC9F9300096F6F9 /* how_up1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = how_up1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA15EF91C94726D00F0649D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BA226B1C9762FC00B70A34 /* Accounts.framework in Frameworks */,
+				71BA226C1C9762FC00B70A34 /* CoreGraphics.framework in Frameworks */,
+				71BA226D1C9762FC00B70A34 /* CoreLocation.framework in Frameworks */,
+				71BA226E1C9762FC00B70A34 /* libsqlite3.tbd in Frameworks */,
+				71BA226F1C9762FC00B70A34 /* MobileCoreServices.framework in Frameworks */,
+				71BA22701C9762FC00B70A34 /* Security.framework in Frameworks */,
+				71BA22711C9762FC00B70A34 /* Social.framework in Frameworks */,
+				71BA22721C9762FC00B70A34 /* SystemConfiguration.framework in Frameworks */,
+				71BA22731C9762FC00B70A34 /* WebKit.framework in Frameworks */,
+				7EA15F171C94907200F0649D /* MapKit.framework in Frameworks */,
+				71BA22611C9762AA00B70A34 /* KinveyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E1395B41CBC045A00F09E44 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				96C609AF1CC9C764000DDF6C /* driver1.png */,
+				3E1395B71CBC04DC00F09E44 /* AdminViewController.swift */,
+				3E1395B91CBC062600F09E44 /* Admin.swift */,
+				3E1395BB1CBC176500F09E44 /* AdminOperationsViewController.swift */,
+				3E3149F01CBC5480008634F3 /* RegisterDriverViewController.swift */,
+				3E3149E91CBC3BF3008634F3 /* Find User Male Filled-25.png */,
+				3E3149F21CBC5828008634F3 /* DriverData.swift */,
+			);
+			name = Admin;
+			sourceTree = "<group>";
+		};
+		3E3149ED1CBC5379008634F3 /* kinvey */ = {
+			isa = PBXGroup;
+			children = (
+				3E3149EE1CBC53AA008634F3 /* KinveyOperations.swift */,
+				3E2988D61CBDD2BE007BCBDC /* KCSUserExtension.swift */,
+			);
+			name = kinvey;
+			sourceTree = "<group>";
+		};
+		71154B9B1C97715400EFCF5B /* DriverLogin */ = {
+			isa = PBXGroup;
+			children = (
+				8A8969E31C9744E6006AD45F /* DriverLoginViewController.swift */,
+			);
+			name = DriverLogin;
+			sourceTree = "<group>";
+		};
+		71154B9C1C9771A500EFCF5B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				7E9BA55D1CC92ECC00856597 /* Marker Filled-25.png */,
+				7195ADD91CC99A2A008D1E9F /* Delete-25.png */,
+				71BA22741C97644D00B70A34 /* UserMapViewController.swift */,
+				7E9BA55B1CC91F0600856597 /* Taxi Filled-25.png */,
+				3E52BF811CC70D2E0004FA6E /* RideRequestViewController.swift */,
+				3E52BF871CC71E070004FA6E /* UserRegsiterViewController.swift */,
+				3E52BF891CC71E1A0004FA6E /* UserLoginViewController.swift */,
+				3E52BF8B1CC726610004FA6E /* UserDetails.swift */,
+				71648C261CC7330C003C14A9 /* RideRequests.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		71154B9D1C97722A00EFCF5B /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				71154B9E1C97729600EFCF5B /* DriverRoutes */,
+				71154B9B1C97715400EFCF5B /* DriverLogin */,
+				71648C201CC70C11003C14A9 /* RideTypeTableViewController.swift */,
+				71648C221CC71260003C14A9 /* NightRideViewController.swift */,
+			);
+			name = Driver;
+			sourceTree = "<group>";
+		};
+		71154B9E1C97729600EFCF5B /* DriverRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				8A8969E51C9744E6006AD45F /* DriverRoutesViewController.swift */,
+				8A8969E41C9744E6006AD45F /* DriverRoutes.swift */,
+				71154BA21C977A8000EFCF5B /* RouteDetailsTableViewController.swift */,
+				39BF124E1CA5B24800EB2D07 /* DriverMapViewController.swift */,
+				7EFA014C1CADE82500742E50 /* DriverEntity.swift */,
+				7E2E39511CC873D700FDF43B /* MapPin.swift */,
+			);
+			name = DriverRoutes;
+			sourceTree = "<group>";
+		};
+		71154B9F1C9772F300EFCF5B /* Application files */ = {
+			isa = PBXGroup;
+			children = (
+				71154B971C9766F600EFCF5B /* donottouch.m */,
+				71154B961C9766F500EFCF5B /* Where's my Ride?-Bridging-Header.h */,
+				7EA15F0B1C94726D00F0649D /* Info.plist */,
+				7EA15F081C94726D00F0649D /* LaunchScreen.storyboard */,
+				71BA22761C97655A00B70A34 /* AppDelegate.swift */,
+			);
+			name = "Application files";
+			sourceTree = "<group>";
+		};
+		71154BA01C97734F00EFCF5B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BEE908B81CC9ED660096F6F9 /* timings_info_Final.png */,
+				BEE908C21CC9F9300096F6F9 /* how_up1.png */,
+				BEE908C01CC9F7910096F6F9 /* Routes_Info_Final1.png */,
+				BEE908BA1CC9ED660096F6F9 /* How it Works_Info_Final.png */,
+				BEE908BB1CC9ED660096F6F9 /* contact_info_Final.png */,
+				96A905C61CC9641D0083B90B /* contact_up.png */,
+				96A905C71CC9641D0083B90B /* How it Works_up.png */,
+				96A905C81CC9641D0083B90B /* Routes_Up.png */,
+				96A905C91CC9641D0083B90B /* Timings_Up.png */,
+				7177D0551CC6D9C10050731B /* launchScreenImage300-300.png */,
+				716BF7F01CC539F6002DD02D /* logo-29.jpg */,
+				716BF7F11CC539F6002DD02D /* logo-58.jpg */,
+				716BF7F21CC539F6002DD02D /* logo-40.jpg */,
+				716BF7F31CC539F6002DD02D /* logo-80.jpg */,
+				716BF7F41CC539F6002DD02D /* logo-76.jpg */,
+				716BF7F51CC539F6002DD02D /* logo-152.jpg */,
+				716BF7EE1CC53763002DD02D /* logo.jpg */,
+				3E1618981C9C679F00098147 /* User Group Filled-25.png */,
+				3E3149F41CBC7F5D008634F3 /* Info-25.png */,
+				7177D0591CC6E15F0050731B /* Administrator.png */,
+				3E1618961C9C66D900098147 /* Taxi Filled-25.png */,
+				7EA15F061C94726D00F0649D /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		71154BA11C97736900EFCF5B /* Home page */ = {
+			isa = PBXGroup;
+			children = (
+				8A8969E21C9744E6006AD45F /* AppLaunchViewController.swift */,
+			);
+			name = "Home page";
+			sourceTree = "<group>";
+		};
+		71E272BE1CCD7355005E0A34 /* Common files */ = {
+			isa = PBXGroup;
+			children = (
+				3E3149ED1CBC5379008634F3 /* kinvey */,
+				71178A641CC96CE500F45CE8 /* Validation.swift */,
+			);
+			name = "Common files";
+			sourceTree = "<group>";
+		};
+		7EA15EF31C94726D00F0649D = {
+			isa = PBXGroup;
+			children = (
+				7EA15F151C94904300F0649D /* Frameworks */,
+				7EA15EFE1C94726D00F0649D /* Where's my Ride? */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA15EFE1C94726D00F0649D /* Where's my Ride? */ = {
+			isa = PBXGroup;
+			children = (
+				71E272BE1CCD7355005E0A34 /* Common files */,
+				9656D4481CC022AE0098C1F5 /* MoreInfo */,
+				3E1395B41CBC045A00F09E44 /* Admin */,
+				8A8969E61C9744E6006AD45F /* Info.plist */,
+				71154BA11C97736900EFCF5B /* Home page */,
+				3E3149EB1CBC47D2008634F3 /* Main.storyboard */,
+				71154BA01C97734F00EFCF5B /* Assets */,
+				71154B9F1C9772F300EFCF5B /* Application files */,
+				71154B9D1C97722A00EFCF5B /* Driver */,
+				71154B9C1C9771A500EFCF5B /* User */,
+			);
+			path = "Where's my Ride?";
+			sourceTree = "<group>";
+		};
+		7EA15F151C94904300F0649D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71BA22621C9762FC00B70A34 /* Accounts.framework */,
+				71BA22631C9762FC00B70A34 /* CoreGraphics.framework */,
+				71BA22641C9762FC00B70A34 /* CoreLocation.framework */,
+				71BA22651C9762FC00B70A34 /* libsqlite3.tbd */,
+				71BA22661C9762FC00B70A34 /* MobileCoreServices.framework */,
+				71BA22671C9762FC00B70A34 /* Security.framework */,
+				71BA22681C9762FC00B70A34 /* Social.framework */,
+				71BA22691C9762FC00B70A34 /* SystemConfiguration.framework */,
+				71BA226A1C9762FC00B70A34 /* WebKit.framework */,
+				71BA22601C9762AA00B70A34 /* KinveyKit.framework */,
+				7EA15F161C94907200F0649D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9656D4481CC022AE0098C1F5 /* MoreInfo */ = {
+			isa = PBXGroup;
+			children = (
+				9656D4491CC022D80098C1F5 /* MoreInfoViewController.swift */,
+				71592E101CC05DF900640EE0 /* TimingsInfoViewController.swift */,
+				71592E121CC05E0800640EE0 /* LocationInfoViewController.swift */,
+				71592E141CC05E2A00640EE0 /* RoutesInfoViewController.swift */,
+				71592E161CC05E6200640EE0 /* HowItWorksInfoViewController.swift */,
+			);
+			name = MoreInfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EA15EFB1C94726D00F0649D /* Where's my Ride? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA15F0E1C94726D00F0649D /* Build configuration list for PBXNativeTarget "Where's my Ride?" */;
+			buildPhases = (
+				7EA15EF81C94726D00F0649D /* Sources */,
+				7EA15EF91C94726D00F0649D /* Frameworks */,
+				7EA15EFA1C94726D00F0649D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Where's my Ride?";
+			productName = "Where's my Ride?";
+			productReference = 7EA15EFC1C94726D00F0649D /* Where's my Ride?.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EA15EF41C94726D00F0649D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alle,Sai Teja";
+				TargetAttributes = {
+					7EA15EFB1C94726D00F0649D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 583N2DJ8B2;
+					};
+				};
+			};
+			buildConfigurationList = 7EA15EF71C94726D00F0649D /* Build configuration list for PBXProject "Where's my Ride?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EA15EF31C94726D00F0649D;
+			productRefGroup = 7EA15EF31C94726D00F0649D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EA15EFB1C94726D00F0649D /* Where's my Ride? */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EA15EFA1C94726D00F0649D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716BF7F91CC539F6002DD02D /* logo-80.jpg in Resources */,
+				96A905CA1CC9641D0083B90B /* contact_up.png in Resources */,
+				3E3149F51CBC7F5D008634F3 /* Info-25.png in Resources */,
+				BEE908BE1CC9ED660096F6F9 /* How it Works_Info_Final.png in Resources */,
+				3E3149EA1CBC3BF3008634F3 /* Find User Male Filled-25.png in Resources */,
+				3E1618991C9C679F00098147 /* User Group Filled-25.png in Resources */,
+				716BF7FB1CC539F6002DD02D /* logo-152.jpg in Resources */,
+				BEE908BF1CC9ED660096F6F9 /* contact_info_Final.png in Resources */,
+				716BF7EF1CC53763002DD02D /* logo.jpg in Resources */,
+				716BF7F81CC539F6002DD02D /* logo-40.jpg in Resources */,
+				716BF7F61CC539F6002DD02D /* logo-29.jpg in Resources */,
+				3E1618971C9C66D900098147 /* Taxi Filled-25.png in Resources */,
+				BEE908C11CC9F7910096F6F9 /* Routes_Info_Final1.png in Resources */,
+				3E3149EC1CBC47D2008634F3 /* Main.storyboard in Resources */,
+				7177D05A1CC6E15F0050731B /* Administrator.png in Resources */,
+				BEE908BC1CC9ED660096F6F9 /* timings_info_Final.png in Resources */,
+				7195ADDA1CC99A2A008D1E9F /* Delete-25.png in Resources */,
+				716BF7F71CC539F6002DD02D /* logo-58.jpg in Resources */,
+				96C609B01CC9C764000DDF6C /* driver1.png in Resources */,
+				BEE908C31CC9F9300096F6F9 /* how_up1.png in Resources */,
+				96A905CB1CC9641D0083B90B /* How it Works_up.png in Resources */,
+				96A905CC1CC9641D0083B90B /* Routes_Up.png in Resources */,
+				716BF7FA1CC539F6002DD02D /* logo-76.jpg in Resources */,
+				7E9BA55C1CC91F0600856597 /* Taxi Filled-25.png in Resources */,
+				7177D0561CC6D9C10050731B /* launchScreenImage300-300.png in Resources */,
+				7EA15F0A1C94726D00F0649D /* LaunchScreen.storyboard in Resources */,
+				7EA15F071C94726D00F0649D /* Assets.xcassets in Resources */,
+				7E9BA55E1CC92ECC00856597 /* Marker Filled-25.png in Resources */,
+				96A905CD1CC9641D0083B90B /* Timings_Up.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA15EF81C94726D00F0649D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2E39521CC873D700FDF43B /* MapPin.swift in Sources */,
+				3E1395B81CBC04DC00F09E44 /* AdminViewController.swift in Sources */,
+				71592E151CC05E2A00640EE0 /* RoutesInfoViewController.swift in Sources */,
+				71592E111CC05DF900640EE0 /* TimingsInfoViewController.swift in Sources */,
+				3E3149F31CBC5828008634F3 /* DriverData.swift in Sources */,
+				7EFA014D1CADE82500742E50 /* DriverEntity.swift in Sources */,
+				71648C231CC71260003C14A9 /* NightRideViewController.swift in Sources */,
+				3E2988D71CBDD2BE007BCBDC /* KCSUserExtension.swift in Sources */,
+				71BA22771C97655A00B70A34 /* AppDelegate.swift in Sources */,
+				3E3149F11CBC5480008634F3 /* RegisterDriverViewController.swift in Sources */,
+				8A8969EF1C9744E6006AD45F /* DriverRoutesViewController.swift in Sources */,
+				71BA22751C97644D00B70A34 /* UserMapViewController.swift in Sources */,
+				71648C211CC70C11003C14A9 /* RideTypeTableViewController.swift in Sources */,
+				3E1395BA1CBC062600F09E44 /* Admin.swift in Sources */,
+				39BF124F1CA5B24800EB2D07 /* DriverMapViewController.swift in Sources */,
+				3E52BF8A1CC71E1A0004FA6E /* UserLoginViewController.swift in Sources */,
+				71592E131CC05E0800640EE0 /* LocationInfoViewController.swift in Sources */,
+				3E52BF8C1CC726610004FA6E /* UserDetails.swift in Sources */,
+				8A8969ED1C9744E6006AD45F /* DriverLoginViewController.swift in Sources */,
+				3E52BF881CC71E070004FA6E /* UserRegsiterViewController.swift in Sources */,
+				71154BA31C977A8000EFCF5B /* RouteDetailsTableViewController.swift in Sources */,
+				3E1395BC1CBC176500F09E44 /* AdminOperationsViewController.swift in Sources */,
+				8A8969EC1C9744E6006AD45F /* AppLaunchViewController.swift in Sources */,
+				71154B981C9766F600EFCF5B /* donottouch.m in Sources */,
+				3E52BF821CC70D2E0004FA6E /* RideRequestViewController.swift in Sources */,
+				71178A651CC96CE500F45CE8 /* Validation.swift in Sources */,
+				9656D44A1CC022D80098C1F5 /* MoreInfoViewController.swift in Sources */,
+				71592E171CC05E6200640EE0 /* HowItWorksInfoViewController.swift in Sources */,
+				71648C271CC7330C003C14A9 /* RideRequests.swift in Sources */,
+				8A8969EE1C9744E6006AD45F /* DriverRoutes.swift in Sources */,
+				3E3149EF1CBC53AA008634F3 /* KinveyOperations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EA15F081C94726D00F0649D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA15F091C94726D00F0649D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EA15F0C1C94726D00F0649D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7EA15F0D1C94726D00F0649D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EA15F0F1C94726D00F0649D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Where's my Ride?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.bestestappever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Where's my Ride?/Where's my Ride?-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7EA15F101C94726D00F0649D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Where's my Ride?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.bestestappever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Where's my Ride?/Where's my Ride?-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EA15EF71C94726D00F0649D /* Build configuration list for PBXProject "Where's my Ride?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA15F0C1C94726D00F0649D /* Debug */,
+				7EA15F0D1C94726D00F0649D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA15F0E1C94726D00F0649D /* Build configuration list for PBXNativeTarget "Where's my Ride?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA15F0F1C94726D00F0649D /* Debug */,
+				7EA15F101C94726D00F0649D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EA15EF41C94726D00F0649D /* Project object */;
+}
